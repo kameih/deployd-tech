@@ -35,7 +35,7 @@
 
             <h2 class="wp-block-heading nitro-offscreen nitro-lazy-render" id="16-step-1-install-laravel">Step 1. Install laravel</h2> <p class="nitro-offscreen nitro-lazy-render"><strong>composer create-project laravel/laravel (name any suitable app name)</strong></p> 
 
-            <h2 class="wp-block-heading nitro-offscreen nitro-lazy-render" id="17-step-2-install-jwt-package">Step 2. Install JWT Package</h2> <pre class="wp-block-code nitro-offscreen nitro-lazy-render"><code>composer require tymon/jwt-auth</code></pre> 
+            <h2 class="wp-block-heading nitro-offscreen nitro-lazy-render" id="17-step-2-install-jwt-package">Step 2. Install JWT Package And NPM package</h2> <pre class="wp-block-code nitro-offscreen nitro-lazy-render"><code>composer require tymon/jwt-auth</code></pre> <pre class="wp-block-code nitro-offscreen nitro-lazy-render"><code>npm install</code></pre> 
 
 
          <h2 class="wp-block-heading nitro-offscreen nitro-lazy-render" id="19-step-4-publish-jwt-configuration">Step 3. Publish jwt configuration</h2> <pre class="wp-block-code nitro-offscreen nitro-lazy-render"><code>php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"</code></pre> 
